@@ -1,6 +1,6 @@
 # SUZUNO32RV - CH32V203 Prototyping board
 
-(photo; To be uploaded/アップロード予定)
+<img src="https://github.com/verylowfreq/board_suzuno32rv/assets/60875431/f60dd19a-8617-4681-9ba2-af1d0fa96077" width="480">
 
 **SUZUNO32RV** is a MCU prototyping board with **RISC-V MCU CH32V203C8T6** (LQFP 48pin) in the famous "UNO"-shape board.
 
@@ -13,10 +13,6 @@ SUZUNO32RV has **Type-C** port (as USB device; USBD) and **Type-A** port (as USB
 **CH32V**はWCHによるRISC-Vマイコンです。32ビットRISC-Vコアと、STM32のペリフェラルが実装されていて、安価ながらもパワフルです。
 
 SUZUNO32RVはデバイスとしての**Type-Cポート** (USBD) と、ホストとしての**Type-Aポート**（USBFS; あるいは追加のケーブルを準備してデバイスとして）が実装されているので、USBデバイス・ホスト機能の開発もできます。
-
-## Gallery / 写真
-
-(photo; To be uploaded/アップロード予定)
 
 ## Specs / 仕様
 
@@ -40,14 +36,21 @@ https://github.com/verylowfreq/arduino_ch32v203_usbdevice_keyboard
 
 https://github.com/verylowfreq/arduino_ch32v203_usbdevice_keyboard
 
+### Load JPEG image files from USB stick and show on SPI LCD / USBメモリからJPEGファイルを読み込み、SPI接続の液晶画面へ表示する
+
+https://github.com/verylowfreq/pio_ch32v203_usbms_imageviewer
+
 ## Resources / 資料
 
- - Schematic / 回路 - (To be uploaded/アップロード予定)
+ - Short guide / 簡易説明書
+   - (To be uploaded)
+ - Schematic / 回路
+   - (To be uploaded/アップロード予定)
 
 ## Additional note / 追記
 
 I also made "Suzuduino UNO" as former board. This board uses CH32V203K8T6 (LQFP 32pin) and good for hand soldering.
 
-過去に "Suzuduino UNO" というボードを製作しています。これは手ハンダに適した基板で、CH32V203K8T6 (LQFP 32pin) を採用したものです。
+"Suzuduino UNO" というボードも製作・頒布しています。これは手ハンダ実装に適した基板で、CH32V203K8T6 (LQFP 32pin) を採用したものです。
 
 https://github.com/verylowfreq/suzuduino-uno-v1/
