@@ -1,4 +1,4 @@
-# SUZUNO32RV - CH32V203 Prototyping board
+# Suzuno32RV - CH32V203 Prototyping board
 
 <img src="https://github.com/verylowfreq/board_suzuno32rv/assets/60875431/f60dd19a-8617-4681-9ba2-af1d0fa96077" width="480">
 
@@ -43,7 +43,7 @@ https://github.com/verylowfreq/pio_ch32v203_usbms_imageviewer
 ## Resources / 資料
 
  - Short guide / 簡易説明書
-   - (To be uploaded)
+   - [suzuno32rv_shortguide_1.pdf](https://github.com/verylowfreq/board_suzuno32rv/blob/main/suzuno32rv_shortguide_1.pdf)
  - Schematic / 回路
    - (To be uploaded/アップロード予定)
 
