@@ -45,7 +45,7 @@ https://github.com/verylowfreq/pio_ch32v203_usbms_imageviewer
  - Short guide / 簡易説明書
    - [suzuno32rv_shortguide_1.pdf](https://github.com/verylowfreq/board_suzuno32rv/blob/main/suzuno32rv_shortguide_1.pdf)
  - Schematic / 回路
-   - (To be uploaded/アップロード予定)
+   - [schematics_suzuno32rv_v1.pdf](https://github.com/verylowfreq/board_suzuno32rv/blob/main/schematics_suzuno32rv_v1.pdf)
 
 ## Additional note / 追記
 
