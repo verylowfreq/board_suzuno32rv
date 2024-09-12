@@ -32,6 +32,10 @@ Suzuno32RVはデバイスとしての**Type-Cポート** (USBD) と、ホスト�
 
 ## サンプルコード / Sample code
 
+### サンプルコード集
+
+https://github.com/verylowfreq/examples_suzuno32rv
+
 ### Act as USB keyboard device / USBキーボードとして振舞う
 
 https://github.com/verylowfreq/arduino_ch32v203_usbdevice_keyboard
@@ -43,6 +47,19 @@ https://github.com/verylowfreq/arduino_ch32v203_usbdevice_keyboard
 ### Load JPEG image files from USB stick and show on SPI LCD / USBメモリからJPEGファイルを読み込み、SPI接続の液晶画面へ表示する
 
 https://github.com/verylowfreq/pio_ch32v203_usbms_imageviewer
+
+
+## 未実装のピンについて（デバッグピン、拡張GPIO）
+
+未実装のピンは自己責任でご利用ください。ピンを実装するとシールドと物理的に干渉する場合があります。
+
+<img width="400" src="images/image_adsz32rv_3.jpg">
+
+2x5の10ピンは、WCH LinkEデバッガを接続できるデバッグピンです。必須ではありませんが、必要に応じて利用してください。
+
+L字のピンヘッダを実装し、リボンケーブルで接続すると便利です。接続方向にご注意ください。
+
+3ピンはPB13,PB14,PB15のGPIOが引き出されています。デバッグピンをリボンケーブルで利用した場合、この3ピンと物理的に干渉する可能性があります。
 
 
 ## Resources / 資料
