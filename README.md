@@ -34,18 +34,24 @@ Suzuno32RVはデバイスとしての**Type-Cポート** (USBD) と、ホスト�
 
 ### サンプルコード集
 
-https://github.com/verylowfreq/examples_suzuno32rv
+ - LEDの点滅
+ - LEDの複数点灯
+ - I2C接続のOLEDの表示
+ - SG-90サーボの制御
+ - NeoPixelの点灯
+ - USBキーボードとして振舞う
+ - MIDI入力デバイスとして振舞う
+ - WebUSBデバイスとして振舞う
 
-### Act as USB keyboard device / USBキーボードとして振舞う
+ https://github.com/verylowfreq/examples_suzuno32rv
 
+
+
+USBホストとして、USBキーボードの入力を読み取る / Act as USB Host and read the key input from USB keyboard  
 https://github.com/verylowfreq/arduino_ch32v203_usbdevice_keyboard
+  
 
-### Act as USB Host and read the key input from USB keyboard / USBホストとして、USBキーボードの入力を読み取る
-
-https://github.com/verylowfreq/arduino_ch32v203_usbdevice_keyboard
-
-### Load JPEG image files from USB stick and show on SPI LCD / USBメモリからJPEGファイルを読み込み、SPI接続の液晶画面へ表示する
-
+USBメモリからJPEGファイルを読み込み、SPI接続の液晶画面へ表示する / Load JPEG image files from USB stick and show on SPI LCD  
 https://github.com/verylowfreq/pio_ch32v203_usbms_imageviewer
 
 
