@@ -32,8 +32,11 @@ Suzuno32RVはデバイスとしての**Type-Cポート** (USBD) と、ホスト�
 
 ## サンプルコード / Sample code
 
-### サンプルコード集
+Arduino環境構築はこちらのドキュメントで →  https://verylowfreq.github.io/suzunodoc/
 
+サンプルコード集 → https://github.com/verylowfreq/examples_suzuno32rv
+
+含まれているもの
  - LEDの点滅
  - LEDの複数点灯
  - I2C接続のOLEDの表示
@@ -43,16 +46,15 @@ Suzuno32RVはデバイスとしての**Type-Cポート** (USBD) と、ホスト�
  - MIDI入力デバイスとして振舞う
  - WebUSBデバイスとして振舞う
 
- https://github.com/verylowfreq/examples_suzuno32rv
+以下はUSBホスト動作のサンプルコードです。いまのところWCH提供のサンプルコードをベースにしていますが、将来的にTinyUSBライブラリを使ったものに差し替える可能性があります。
 
-
-
-USBホストとして、USBキーボードの入力を読み取る / Act as USB Host and read the key input from USB keyboard  
-https://github.com/verylowfreq/arduino_ch32v203_usbdevice_keyboard
+ - USBホストとして、USBキーボードの入力を読み取る / Act as USB Host and read the key input from USB keyboard
+   - https://github.com/verylowfreq/example_suzuno32rv_evt_usbh_read_keyboard
   
 
-USBメモリからJPEGファイルを読み込み、SPI接続の液晶画面へ表示する / Load JPEG image files from USB stick and show on SPI LCD  
-https://github.com/verylowfreq/pio_ch32v203_usbms_imageviewer
+ - USBメモリからJPEGファイルを読み込み、SPI接続の液晶画面へ表示する / Load JPEG image files from USB stick and show on SPI LCD
+   - このサンプルコードはPlatformIOでの環境構築、ビルドが必要です。
+   - https://github.com/verylowfreq/pio_ch32v203_usbms_imageviewer
 
 
 ## 未実装のピンについて（デバッグピン、拡張GPIO）
@@ -61,9 +63,7 @@ https://github.com/verylowfreq/pio_ch32v203_usbms_imageviewer
 
 <img width="400" src="images/image_adsz32rv_3.jpg">
 
-2x5の10ピンは、WCH LinkEデバッガを接続できるデバッグピンです。必須ではありませんが、必要に応じて利用してください。
-
-L字のピンヘッダを実装し、リボンケーブルで接続すると便利です。接続方向にご注意ください。
+2x5の10ピンは、WCH LinkEデバッガを接続できるデバッグピンです。必須ではありませんが、必要に応じて利用してください。L字のピンヘッダを実装し、リボンケーブルで接続すると便利です。接続方向にご注意ください。
 
 3ピンはPB13,PB14,PB15のGPIOが引き出されています。デバッグピンをリボンケーブルで利用した場合、この3ピンと物理的に干渉する可能性があります。
 
