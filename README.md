@@ -18,17 +18,15 @@ Suzuno32RVはデバイスとしての**Type-Cポート** (USBD) と、ホスト�
 **Suzuno32RV** is a MCU prototyping board with **RISC-V MCU CH32V203C8T6** (LQFP 48pin) in the famous "UNO"-shape board. **CH32V** series is a microprocessor chip of RISC-V by WCH. The chip has RISC-V 32bit CPU core and STM32-like peripherals. The price is cheap but powerful. This board has **Type-C** port (as USB device; USBD) and **Type-A** port (as USB Host; USBFS). So you can develop USB device and/or USB Host program.
 
 
-## 仕様 / Specs
+## 簡易インストールガイド
 
- - CH32V203C8T6
-   - RISC-V CPU 144MHz, ROM 64KB, RAM 20KB
- - Digital: 25pins
- - Analog: 6 + more pins
- - USB connector: Type-C, Type-A
- - Program download method: WCH LinkE cable (WCH LinkUtility), USB download (WCHISPStudio)
- - Power supply: Type-C (5V), Pin headers (5V or 3.3V)
- - Crystal: 8MHz (NOTE: CH32V203C8T6 can also run without external crystal)
+**詳細な説明はこちら → [https://verylowfreq.github.io/suzunodoc/](https://verylowfreq.github.io/suzunodoc/)**
 
+◆ 独自コアのインストール : `https://raw.githubusercontent.com/verylowfreq/board_manager_ch32/main/package_ch32v_index_sz.json`
+
+◆ zadigでデバイスドライバの入れ替え
+
+◆ 'CH32V20X' 'Suzuno32RV/SuzuduinoUNO' を選択、アップロード方法は WCH-ISP を選択
 
 ## サンプルコード / Sample code
 
@@ -66,6 +64,19 @@ Arduino環境構築はこちらのドキュメントで →  https://verylowfreq
 2x5の10ピンは、WCH LinkEデバッガを接続できるデバッグピンです。必須ではありませんが、必要に応じて利用してください。L字のピンヘッダを実装し、リボンケーブルで接続すると便利です。接続方向にご注意ください。
 
 3ピンはPB13,PB14,PB15のGPIOが引き出されています。デバッグピンをリボンケーブルで利用した場合、この3ピンと物理的に干渉する可能性があります。
+
+
+
+## 仕様 / Specs
+
+ - CH32V203C8T6
+   - RISC-V CPU 144MHz, ROM 64KB, RAM 20KB
+ - Digital: 25pins
+ - Analog: 6 + more pins
+ - USB connector: Type-C, Type-A
+ - Program download method: WCH LinkE cable (WCH LinkUtility), USB download (WCHISPStudio)
+ - Power supply: Type-C (5V), Pin headers (5V or 3.3V)
+ - Crystal: 8MHz (NOTE: CH32V203C8T6 can also run without external crystal)
 
 
 ## Resources / 資料
